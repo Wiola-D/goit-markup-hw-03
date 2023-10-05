@@ -209,6 +209,10 @@ button:focus {
   width: 1158px;
   padding: 15px;
 }
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .header-container {
   display: flex;
   justify-content: space-between;
