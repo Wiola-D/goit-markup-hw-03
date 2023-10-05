@@ -219,7 +219,7 @@ button:focus {
   justify-content: space-between;
   align-items: center;
   height: 72px;
-  border-bottom: 2px solid var(--brand-color2);
+  border-bottom: 1px solid #e7e9fc;
 }
 .navigation {
   display: flex;
@@ -270,14 +270,20 @@ button:focus {
 .third-container li {
   margin: 24px;
 }
+.our-team > .container {
+  padding: 120px;
+}
 .our-team .list {
   display: flex;
-  margin-top: 72px;
-  margin-bottom: 120px;
+  padding-top: 72px;
+  padding-bottom: 120px;
 }
 .employees {
   margin: 24px;
-  border: 0.5px solid var(--brand-color2);
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .footer {
@@ -315,7 +321,7 @@ button:focus {
 }
 .img-list > li {
   margin-bottom: 46px;
-  border: 0.5px solid var(--brand-color);
+  border: 1px solid #e7e9fc;
   display: block;
   flex-direction: column;
   justify-content: center;
