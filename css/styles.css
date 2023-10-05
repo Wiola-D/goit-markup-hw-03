@@ -304,8 +304,8 @@ button:focus {
   display: flex;
 }
 .buttons {
-  margin-top: 98px;
-  margin-bottom: 72px;
+  padding-top: 98px;
+  padding-bottom: 72px;
   justify-content: center;
 }
 .buttons > li {
@@ -324,11 +324,15 @@ button:focus {
 }
 .img-list > li {
   margin-bottom: 46px;
-  border: 1px solid #e7e9fc;
   display: block;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   gap: 8px;
   align-self: stretch;
+}
+.description {
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
 }
