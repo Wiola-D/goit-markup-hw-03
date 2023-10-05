@@ -205,11 +205,6 @@ button:focus {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
 .container {
   width: 1158px;
   padding: 15px;
@@ -253,19 +248,24 @@ button:focus {
   background: var(--IRIS, #4d5ae5);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
+.second-container {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .second-container > .section-title {
   display: none;
 }
 .second-container > .list {
   display: flex;
-  margin-top: 120px;
-  margin-bottom: 120px;
+}
+.list-box:not(:first-child) {
   padding-left: 24px;
+}
+.third-container {
+  padding: 120 0px;
 }
 .third-container > .list {
   display: flex;
-  margin-top: 72px;
-  margin-bottom: 240px;
 }
 .third-container li {
   margin: 24px;
@@ -317,7 +317,6 @@ button:focus {
 .img-list {
   flex-wrap: wrap;
   justify-content: space-around;
-  display: block;
 }
 .img-list > li {
   margin-bottom: 46px;
