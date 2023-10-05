@@ -205,3 +205,72 @@ button:focus {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
+*,
+*::before,
+*::after {
+  box-sizing: content-box;
+}
+.container {
+  min-width: 1158px;
+  padding: 0 156px;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+  border-bottom: 2px solid var(--brand-color2);
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.navigation > .list {
+  display: flex;
+}
+.address > .list {
+  display: flex;
+}
+.navigation .link {
+  padding-left: 40px;
+}
+.address .link {
+  padding-left: 40px;
+}
+
+.first-section > .container {
+  height: 600px;
+}
+.second-container > .section-title {
+  display: none;
+}
+.second-container > .list {
+  display: flex;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  padding-left: 24px;
+}
+.third-container > .list {
+  display: flex;
+  margin-top: 72px;
+  margin-bottom: 240px;
+}
+.third-container li {
+  margin: 24px;
+}
+.our-team .list {
+  display: flex;
+  margin-top: 72px;
+  margin-bottom: 120px;
+}
+.employees {
+  margin: 24px;
+  border: 0.5px solid var(--brand-color2);
+}
+
+.footer {
+  height: 312px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
