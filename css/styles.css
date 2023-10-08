@@ -196,6 +196,11 @@ button:focus {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 *ul,
 ol {
   list-style: none;
@@ -255,6 +260,11 @@ img {
 .first-section {
   padding: 188px 0 188px;
 }
+.first-section > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .main-title {
   max-width: 496px;
 }
@@ -295,7 +305,7 @@ img {
   margin-bottom: 8px;
 }
 .third-container {
-  padding: 120 0px;
+  padding-bottom: 120px;
 }
 .third-container .section-title {
   margin-bottom: 72px;
@@ -307,8 +317,10 @@ img {
 .thrird-section-li {
   width: calc((100% - 48px) / 3);
 }
-.our-team > .container {
+.our-team > div {
   padding: 120px;
+  width: 1158px;
+  margin: 0 auto;
 }
 .our-team .list {
   display: flex;
