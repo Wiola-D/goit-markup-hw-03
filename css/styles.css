@@ -232,7 +232,6 @@ img {
 }
 .section {
   padding-top: 120px;
-  padding-bottom: 120px;
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -278,10 +277,6 @@ img {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
-.second-container {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -318,7 +313,8 @@ img {
   width: calc((100% - 48px) / 3);
 }
 .our-team > div {
-  padding: 120px;
+  padding: 0 15px;
+  padding-bottom: 120px;
   width: 1158px;
   margin: 0 auto;
 }
@@ -374,7 +370,6 @@ img {
   display: block;
   justify-content: center;
   align-items: center;
-  margin: 24px;
   border-radius: 4px;
   border: 1px solid#e7e9fc;
   background: #f4f4fd;
