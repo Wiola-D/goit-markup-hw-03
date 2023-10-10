@@ -27,16 +27,6 @@
 .link:focus {
   color: #404bbf;
 }
-.logo-header {
-  color: var(--logo-color);
-  font-family: Raleway, sans-serif;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-  text-decoration: none;
-}
 .logo-header-st {
   color: var(--brand-color);
 }
@@ -62,18 +52,6 @@ button:hover,
 button:focus {
   cursor: pointer;
 }
-.first-section {
-  background-color: var(--brand-color);
-}
-.main-title {
-  color: #ffffff;
-  text-align: center;
-  font-size: 56px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.07;
-  letter-spacing: 1.12px;
-}
 .button {
   color: var(--logo-color);
   background-color: var(--grey);
@@ -85,24 +63,6 @@ button:focus {
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
-.button-order {
-  color: #fff;
-  background-color: #4d5ae5;
-  font-family: "Roboto", sans-serif;
-  text-align: center;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-}
-.button-order:hover {
-  background-color: #404bbf;
-}
-.button-order:focus {
-  background-color: #404bbf;
-}
-
 .section-title {
   color: var(--brand-color);
   text-align: center;
@@ -115,10 +75,6 @@ button:focus {
 }
 .our-team {
   background-color: #f4f4fd;
-}
-.employees {
-  background-color: #ffffff;
-  color: var(--brand-color);
 }
 .title {
   color: var(--brand-color);
@@ -154,14 +110,6 @@ button:focus {
   letter-spacing: 0.32px;
 }
 
-.img-description {
-  color: var(--brand-color);
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
 .category {
   color: #434455;
   font-size: 16px;
@@ -171,9 +119,6 @@ button:focus {
   letter-spacing: 0.02em;
 }
 
-.footer {
-  background-color: var(--brand-color);
-}
 .logo-footer {
   color: var(--logo-color);
   font-family: "Raleway", sans-serif;
@@ -229,9 +174,18 @@ img {
 }
 .logo-header {
   margin-right: 76px;
+  color: var(--logo-color);
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 .section {
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -258,6 +212,7 @@ img {
 }
 .first-section {
   padding: 188px 0 188px;
+  background-color: var(--brand-color);
 }
 .first-section > .container {
   display: flex;
@@ -266,6 +221,13 @@ img {
 }
 .main-title {
   max-width: 496px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
 }
 .button-order {
   display: block;
@@ -276,6 +238,23 @@ img {
   background: var(--IRIS, #4d5ae5);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
+
+  color: #fff;
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.button-order:hover {
+  background-color: #404bbf;
+}
+.button-order:focus {
+  background-color: #404bbf;
 }
 .visually-hidden {
   position: absolute;
@@ -299,8 +278,8 @@ img {
 .list-box > .title {
   margin-bottom: 8px;
 }
-.third-container {
-  padding-bottom: 120px;
+.third-section {
+  padding-top: 0;
 }
 .third-container .section-title {
   margin-bottom: 72px;
@@ -311,12 +290,6 @@ img {
 }
 .thrird-section-li {
   width: calc((100% - 48px) / 3);
-}
-.our-team > div {
-  padding: 0 15px;
-  padding-bottom: 120px;
-  width: 1158px;
-  margin: 0 auto;
 }
 .our-team .list {
   display: flex;
@@ -332,6 +305,9 @@ img {
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   width: calc((100% - 3 * 24px) / 4);
+
+  background-color: #ffffff;
+  color: var(--brand-color);
 }
 .employees-description {
   padding: 32px 0px;
@@ -348,6 +324,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: var(--brand-color);
 }
 .logo-footer {
   display: inline-block;
@@ -402,4 +379,10 @@ img {
 }
 .img-description {
   margin-bottom: 8px;
+  color: var(--brand-color);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
